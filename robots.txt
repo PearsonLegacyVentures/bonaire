@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://bonaire.tranquilitasspa.com/sitemap.xml
