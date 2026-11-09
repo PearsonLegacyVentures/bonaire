@@ -140,3 +140,9 @@ main>.section-alt{background:linear-gradient(133deg,#e3f0ec 0%,#eff1e8 53%,#f8f6
 @media(max-width:490px){.booking-price-card{grid-template-columns:1fr}.booking-price-card>img{height:150px;min-height:150px}.booking-price-option{flex-wrap:nowrap}.booking-price-body{padding:19px}.booking-price-option .btn{padding:9px 13px}}
 
 .floating-book{text-decoration:none;text-align:center;line-height:1.35}
+
+/* When the booking-price grid is visible, do not overlay prices or booking buttons with the floating mobile CTA. The regular hero/nav/section CTAs remain available. */
+body:has(.booking-prices) .floating-book{display:none!important}
+.booking-prices .booking-price-option a:focus-visible,.booking-prices .booking-price-option a:hover{outline:2px solid #368b7c;outline-offset:2px}
+.booking-prices .booking-price-option{scroll-margin-top:105px}
+@media(max-width:760px){.booking-prices .booking-price-option .btn{min-width:116px;text-align:center}.booking-prices .booking-price-grid{margin-bottom:18px}}
