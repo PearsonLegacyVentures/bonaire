@@ -48,3 +48,6 @@ Only genuine Tranquilitas massage images are used to depict massage. The destina
 ## Independent Cloudflare Pages deployment
 
 Cloudflare Pages project: `bonaire` (`https://bonaire-5cq.pages.dev/`). The `main` branch automatically deploys to this website's own Pages project. The public domain will be transferred after independent deployment and DNS verification; the original shared Grenada Pages project remains available until migration completes.
+
+## Standard online bookings (2026-11-09)
+Eight fixed treatments in USD are linked to their exact Setmore service: Swedish $145/$215, Deep Tissue $155/$230, Beach $170/$250, Couples $310/$460 for 60/90 minutes. Book now directs to live Setmore booking, not a quote request. Custom arrangements still require prior coordination.
